@@ -19,8 +19,8 @@ var commentRoutes       = require("./routes/comments"),
 
 var app = express();
 
-console.log(process.env.DATABASEURL);
-mongoose.connect(process.env.DATABASEURL, {useNewUrlParser: true});
+var url = process.env.DATABASEURL || "mongodb://localhost/yelp_camp"
+mongoose.connect(url, { useNewUrlParser: true });
 // mongoose.connect("mongodb://mike:yelpcamp1@ds223653.mlab.com:23653/yelpcampapp");
 
 
