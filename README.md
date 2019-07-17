@@ -1,6 +1,7 @@
-# YelpCamp
+## [YelpCamp](https://yelp-camp-4422.herokuapp.com/)
 A full stack web application inspired by Yelp that allows users to upload and view campsites as well as leave reviews.
 
+![Screenshot](./yelp-camp-landing-page.png)
 
 ## Features
 * Logged in users can create campsites and leave reviews
